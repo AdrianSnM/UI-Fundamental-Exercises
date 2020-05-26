@@ -1,0 +1,51 @@
+/*Challenge 1
+    Referente al manejo de espacios y relleno, las propiedades padding y margin en concreto
+    °Padding: Espacio de relleno de un elemento seleccionado 
+    °Margin: Propiedad que establece margenesd de un elemento seleccionado */
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    place-items: center;
+    background: lightblue;
+    grid-gap: 2em;
+    padding: 2em; /*Agregado, mejor distribucion*/
+}
+
+.card {
+    background: white;
+}
+
+/*span agrupa los elementos de cada tarjeta*/
+span {
+    height: 100px;
+    display: block;
+    width: 100%;
+    background: #71A6B8;
+}
+
+.content {
+    padding: 1em; /*Agregado, mejor distribucion*/
+}
+
+p.date {
+    text-align: left;
+    font-size: .7em;
+    text-transform: uppercase;
+    margin: 0; /*Agregado, mejor alineacion*/
+}
+ 
+h3 {
+    margin: 0; /*Agregado, mejor alineacion*/
+}
+
+p.desc {
+    font-size: .9em;
+    margin-bottom: 0; /*Agregado, mejor alineacion*/
+}

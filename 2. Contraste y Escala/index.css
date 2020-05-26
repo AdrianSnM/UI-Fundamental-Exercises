@@ -1,0 +1,59 @@
+/*Challenge 2
+    °Letter-spacing: Espacio entre letras 
+    °Text-transform: Transforma texto en mayusculas, minusculas o mixto
+    °Grid: Establece columnas
+    °Width: Ancho de un elemento
+  */
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #212527;
+    color: #9FB2B9;
+}
+
+.container {
+    display: grid;
+    width: 90%;
+    margin: 2em auto 0;
+}
+
+.card {
+    background: #2C3031;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    align-items: center;
+    border-radius: 1em;
+    margin-bottom: 2em;
+    padding: 1.5em;
+}
+
+p, h3 {
+    margin: 0;
+}
+
+h3 {
+    margin-left: 1em;
+    margin-top: .5em;
+    margin: 0 0 .3em;
+    color: #B6EAFF;
+    font-size: 1.8em;
+}
+
+span {
+    width: 5em;
+    height: 5em;
+    background: #75A2B8;
+    border-radius: 50%;
+}
+
+p.date {
+    text-transform: uppercase;
+    font-size: .75em;
+    letter-spacing: .1em;
+    color: #7A8587;
+    margin-bottom: .4em;
+}

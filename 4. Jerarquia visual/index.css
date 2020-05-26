@@ -1,0 +1,57 @@
+/* Challenge 4
+    Referente a manejo de la jerarquia de los objetos de elementos
+    °svg: Grafico vectorial
+    °inline-block: acomodar elementos alineados, junto con border-box para asegurar la proporcion
+*/
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap');
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #efa94a;
+    padding: 24px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.card {
+    background: white;
+    border-radius: 1em;
+    padding: 2.3em;
+    text-align: center;
+}
+
+svg {
+    width: 2.7em;
+}
+
+h1 {
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.card p {
+    font-size: .85em;
+    color: #474747;
+    line-height: 1.9em;
+    color: auto;
+}
+
+a {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5em;
+    font-size: .8em;
+    background: #cdcdcd;
+    padding: .7em 2em;
+    margin-top: 1em;
+}
+.obligation {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 0;
+}
